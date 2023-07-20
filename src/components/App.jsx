@@ -30,7 +30,8 @@ export default function App (){
       [{id: 'id-' + nanoid(1), name: name , number: number}, ...contacts]
     )
     reset()
-  }
+  } 
+  
   const valueFilter = (e) => {
     setFilter(e.target.value)
   } 
